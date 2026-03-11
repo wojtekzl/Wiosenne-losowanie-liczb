@@ -1,0 +1,211 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+display:flex;
+flex-direction:column;
+min-height:100vh;
+background:#f5f5f5;
+}
+
+header{
+text-align:center;
+padding:20px;
+background: linear-gradient(90deg, #a8e063, #56ab2f, rgb(71, 168, 228));
+color:white;
+}
+
+header h1{
+font-size:40px;
+letter-spacing:4px;
+}
+
+.main-section{
+flex:1;
+display:flex;
+justify-content:center;
+align-items:center;
+
+background-image:url("background.jpg");
+background-size:cover;
+background-position:center;
+}
+
+.overlay{
+background:rgba(255,255,255,0.9);
+padding:40px;
+border-radius:15px;
+text-align:center;
+width:90%;
+max-width:500px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.counter{
+font-size:22px;
+margin-bottom:25px;
+}
+
+.numbers{
+display:flex;
+justify-content:center;
+gap:12px;
+margin-bottom:25px;
+flex-wrap:nowrap;
+}
+
+.number{
+width:60px;
+height:60px;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+background:#4CAF50;
+color:white;
+
+font-size:20px;
+font-weight:bold;
+
+border-radius:50%;
+
+box-shadow:0 5px 10px rgba(0,0,0,0.25);
+
+animation:pop 0.3s ease;
+}
+
+button:hover{
+transform:translateY(-4px);
+}
+
+@keyframes pop{
+
+    from{
+        transform:scale(0);
+        opacity:0;
+    }
+
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
+
+}
+
+
+.buttons{
+display:flex;
+gap:15px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+button{
+
+padding:12px 22px;
+font-size:16px;
+
+border:none;
+border-radius:10px;
+
+cursor:pointer;
+
+min-width:140px;
+height:45px;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+transition:0.2s;
+}
+
+#drawBtn{
+background: linear-gradient(90deg,#43cea2,#185a9d);;
+color:white;
+}
+
+
+#resetBtn{
+background:linear-gradient(90deg,#ff416c,#ff4b2b);;
+color:white;
+}
+
+button:disabled{
+background:gray;
+cursor:not-allowed;
+}
+
+.message{
+margin-top:20px;
+font-weight:bold;
+font-size:18px;
+}
+
+footer{
+text-align:center;
+padding:15px;
+background: rgb(71, 168, 228);
+color:black;
+}
+
+@media (max-width:600px){
+
+    header h1{
+        font-size:28px;
+    }
+
+    .overlay{
+        padding:25px;
+    }
+
+    .counter{
+        font-size:18px;
+    }
+
+    .number{
+        width:45px;
+        height:45px;
+        font-size:16px;
+    }
+
+    button{
+        font-size:14px;
+        min-width:120px;
+        height:40px;
+        padding:10px 16px;
+    }
+
+    .message{
+        font-size:15px;
+    }
+
+}
+
+@media (max-width:400px){
+
+    .number{
+        width:38px;
+        height:38px;
+        font-size:14px;
+    }
+
+}
+
+@media (max-width:360px){
+
+    .numbers{
+        gap:8px;
+    }
+
+    .number{
+        width:36px;
+        height:36px;
+        font-size:14px;
+    }
+}
