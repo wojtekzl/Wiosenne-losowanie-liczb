@@ -92,22 +92,22 @@ Złonkiewicz Strzezik/
 ---------------------------------------------------------------------------------------------------
 
 ### Diagram przepływu logiki:
-[START]
- |
- V
-[Kliknięcie "Dodaj liczbę"]
- |
- V
-[Sprawdzenie liczby w drawnNumbers]
- |
- V
-[Dodanie liczby i aktualizacja licznika]
- |
- V
-[drawnNumbers.length == 6 ? → TAK → blokada i komunikat "Wylosowano komplet liczb"]
- |
- V
-[Kliknięcie "Wyczyść" → reset stanu]
+[START]\
+ |\
+ V\
+[Kliknięcie "Dodaj liczbę"]\
+ |\
+ V\
+[Sprawdzenie liczby w drawnNumbers]\
+ |\
+ V\
+[Dodanie liczby i aktualizacja licznika]\
+ |\
+ V\
+[drawnNumbers.length == 6 ? → TAK → blokada i komunikat "Wylosowano komplet liczb"]\
+ |\
+ V\
+[Kliknięcie "Wyczyść" → reset stanu]\
 
 ---------------------------------------------------------------------------------------------------
 
