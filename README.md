@@ -25,10 +25,21 @@ Użytkownik może dodawać liczby pojedynczo, obserwować licznik pozostałych i
 ---------------------------------------------------------------------------------------------------
 
 ### Struktura projektu:
-index.html        Struktura strony
-style.css         Style, kolory, responsywność
-app.js            Logika losowania i resetowania
-background.jpg    Tło głównej sekcji
+	Złonkiewicz-Strzezik-Finish
+	|
+	| - Realizacja
+	|	|
+	|  	index.html
+	|  	style.css
+	|  	app.js
+	|  	background.jpg
+	|
+	| - Dokumentacja
+   	|
+   	interfejs.png
+   	kryteria_akceptacji.pdf
+   	README.md
+   	specyfikacja_techniczna.pdf
 
 ---------------------------------------------------------------------------------------------------
 
@@ -61,16 +72,6 @@ Projekt ma motyw wiosenny i jest responsywny.
 Architektura:
 - Frontend: HTML + CSS + JavaScript
 - Backend: brak (aplikacja działa lokalnie)  
-
----------------------------------------------------------------------------------------------------
-
-### Struktura projektu:
-Złonkiewicz Strzezik/
-|
-|--index.html # główny plik HTML
-|--style.css # style, responsywność, animacje
-|--app.js # logika losowania i obsługa przycisków
-|--background.jpg # obraz tła głównej sekcji  
 
 ---------------------------------------------------------------------------------------------------
 
