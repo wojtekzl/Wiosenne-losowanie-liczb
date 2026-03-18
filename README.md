@@ -2,6 +2,8 @@
 
 ## Losowanie liczb – Wiosna
 
+<img src="background.jpg" width="500">
+
 ### Opis:
 Prosta aplikacja frontendowa do losowania 6 unikalnych liczb z zakresu 1–49 w wiosennym motywie.
 Użytkownik może dodawać liczby pojedynczo, obserwować licznik pozostałych i resetować losowanie.
